@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/09/27 11:18:41.000.263,=C:\Users\Antoine\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2019/09/27 11:18:41.000.278,=C:\Users\Antoine\Documents\Embarcadero\Studio\Projets\Unit1.cpp</Transaction>
+    <Transaction>2019/09/27 11:19:49.000.337,C:\Users\Antoine\Documents\Dev c++ apllication hercule\appli.h=C:\Users\Antoine\Documents\Embarcadero\Studio\Projets\Unit1.h</Transaction>
+    <Transaction>2019/09/27 11:19:49.000.337,C:\Users\Antoine\Documents\Dev c++ apllication hercule\appli.dfm=C:\Users\Antoine\Documents\Embarcadero\Studio\Projets\Unit1.dfm</Transaction>
+    <Transaction>2019/09/27 11:19:49.000.337,C:\Users\Antoine\Documents\Dev c++ apllication hercule\appli.cpp=C:\Users\Antoine\Documents\Embarcadero\Studio\Projets\Unit1.cpp</Transaction>
+    <Transaction>2019/09/27 15:33:48.000.802,C:\Users\Antoine\Documents\Dev c++ apllication hercule\Project1PCH1.h=C:\Users\Antoine\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2019/09/27 15:33:49.000.506,C:\Users\Antoine\Documents\Dev c++ apllication hercule\Project1.cbproj=C:\Users\Antoine\Documents\Embarcadero\Studio\Projets\Project1.cbproj</Transaction>
+    <Transaction>2019/10/01 14:50:31.000.511,=C:\Users\Antoine\Documents\Dev c++ apllication hercule\Unit1.cpp</Transaction>
+    <Transaction>2019/10/01 14:50:39.000.703,C:\Users\Antoine\Documents\Dev c++ apllication hercule\Unit1.h=C:\Users\Antoine\Documents\Dev c++ apllication hercule\RS232.h</Transaction>
+    <Transaction>2019/10/01 14:50:39.000.703,C:\Users\Antoine\Documents\Dev c++ apllication hercule\Unit1.cpp=C:\Users\Antoine\Documents\Dev c++ apllication hercule\RS232.cpp</Transaction>
+    <Transaction>2019/10/04 15:39:35.000.323,C:\Users\EnzoC\Desktop\Trame C++\trame.cpp=C:\Users\EnzoC\Desktop\Trame C++\appli.cpp</Transaction>
+    <Transaction>2019/10/04 15:39:35.000.323,C:\Users\EnzoC\Desktop\Trame C++\trame.dfm=C:\Users\EnzoC\Desktop\Trame C++\appli.dfm</Transaction>
+    <Transaction>2019/10/04 15:39:35.000.323,C:\Users\EnzoC\Desktop\Trame C++\trame.h=C:\Users\EnzoC\Desktop\Trame C++\appli.h</Transaction>
+    <Transaction>2019/11/18 17:05:24.432,E:\GitHub\TpSysteme-Groupe7\TP_VideoSurveillance\C++\cameraPCH1.h=E:\GitHub\TpSysteme-Groupe7\TP_VideoSurveillance\C++\Project1PCH1.h</Transaction>
+    <Transaction>2019/11/18 17:05:24.460,E:\GitHub\TpSysteme-Groupe7\TP_VideoSurveillance\C++\camera.cbproj=E:\GitHub\TpSysteme-Groupe7\TP_VideoSurveillance\C++\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

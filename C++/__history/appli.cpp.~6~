@@ -1,0 +1,55 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "appli.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+	port.Open();
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::ButtonSendClick(TObject *Sender)
+{
+    char * test = new char[Edit1->Text.Length()];
+	wcstombs(test, Edit1->Text.w_str(), Edit1->Text.Length() + 1);
+	port.Write(test, strlen(test) + 1);
+	Edit1->Clear();
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::ButtonStartClick(TObject *Sender)
+{
+	Timer1->Enabled = true;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::FormClose(TObject *Sender, TCloseAction &Action)
+{
+    port.Close();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Timer1Timer(TObject *Sender)
+{
+		std::deque<char> & buf = port.getBuffer();
+
+		UnicodeString str = "";
+		for(int i = 0; i < buf.size(); i++)
+			str += buf[i];
+
+		Memo1->Lines->Add(str);
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::ButtonStopClick(TObject *Sender)
+{
+	  Timer1->Enabled = false;
+}
+//---------------------------------------------------------------------------
+

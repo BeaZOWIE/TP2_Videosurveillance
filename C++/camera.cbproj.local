@@ -17,4 +17,15 @@
     <Transaction>2019/11/18 17:05:24.000.432,E:\GitHub\TpSysteme-Groupe7\TP_VideoSurveillance\C++\Project1PCH1.h=E:\GitHub\TpSysteme-Groupe7\TP_VideoSurveillance\C++\cameraPCH1.h</Transaction>
     <Transaction>2019/11/18 17:05:24.000.460,E:\GitHub\TpSysteme-Groupe7\TP_VideoSurveillance\C++\Project1.cbproj=E:\GitHub\TpSysteme-Groupe7\TP_VideoSurveillance\C++\camera.cbproj</Transaction>
   </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="camera.cpp"/>
+    <File Path="cameraPCH1.h"/>
+    <File Path="RS232.cpp"/>
+    <File Path="RS232.cpp"/>
+    <File Path="RS232.h"/>
+    <File Path="trame.cpp"/>
+    <File Path="trame.cpp"/>
+    <File Path="trame.dfm"/>
+    <File Path="trame.h"/>
+  </ProjectSortOrder>
 </BorlandProject>

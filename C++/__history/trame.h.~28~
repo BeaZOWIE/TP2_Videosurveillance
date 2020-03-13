@@ -22,6 +22,13 @@ __published:	// Composants gérés par l'EDI
 	TButton *ON;
 	TButton *OFF;
 	TButton *Stop;
+	TLabel *Zoom;
+	TButton *ZoomPlus;
+	TButton *ZoomStop;
+	TButton *ZoomMoins;
+	TLabel *Deplacement;
+	TScrollBar *ScrollBar1;
+	TMemo *Memo1;
 
 	void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
 	void __fastcall HautClick(TObject *Sender);
@@ -29,9 +36,17 @@ __published:	// Composants gérés par l'EDI
 	void __fastcall ONClick(TObject *Sender);
 	void __fastcall OFFClick(TObject *Sender);
 	void __fastcall GaucheClick(TObject *Sender);
+	void __fastcall DroiteClick(TObject *Sender);
+	void __fastcall StopClick(TObject *Sender);
+	void __fastcall Mode_automatiqueClick(TObject *Sender);
+	void __fastcall ZoomMoinsClick(TObject *Sender);
+	void __fastcall ZoomPlusClick(TObject *Sender);
+	void __fastcall ZoomStopClick(TObject *Sender);
+	void __fastcall ScrollBar1Change(TObject *Sender);
 private:	// Déclarations utilisateur
 	RS232 port;
 	//OVERLAPPED over;
+	int Position;
 	std::vector<char> received;
 public:		// Déclarations utilisateur
 	__fastcall TForm1(TComponent* Owner);
